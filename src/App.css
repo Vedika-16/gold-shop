@@ -41,7 +41,6 @@ body {
   flex-direction: column;
   gap: 2rem;
 }
-
 /* ================= NAVBAR ================= */
 .navbar {
   display: flex;
@@ -51,13 +50,19 @@ body {
   background: var(--gold);
   color: white;
   flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
   gap: 10px;
 }
-.navbar h2 {
-  margin: 0;
-}
+
 .nav-links button {
-  margin: 0 5px;
   padding: 6px 14px;
   border-radius: 8px;
   border: none;
@@ -67,8 +72,59 @@ body {
   color: white;
   transition: background 0.3s;
 }
+
 .nav-links button:hover {
   background: rgba(255,255,255,0.4);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mode-btn {
+  border: none;
+  background: rgba(255,255,255,0.2);
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-cart {
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background: white;
+  color: var(--gold);
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+/* ================= CONTACT SECTION ================= */
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.05);
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact-section p {
+  margin: 8px 0;
+  font-size: 1.1rem;
 }
 
 /* ================= HERO BANNER ================= */
@@ -84,7 +140,7 @@ body {
 .hero::after {
   content: '';
   position: absolute;
-  inset: 0;
+  inset: 0.3;
   background: rgba(0,0,0,0.4);
 }
 .hero-content {
@@ -122,6 +178,93 @@ body {
   border: 1px solid #ccc;
   margin-bottom: 20px;
   font-size: 1em;
+}
+
+/* ================= DROPDOWN ================= */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+.dropdown-btn:hover {
+  background: rgba(255,255,255,0.4);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  color: black;
+  min-width: 160px;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.dropdown-menu div {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-menu div:hover {
+  background: #f2f2f2;
+}
+
+.card button:last-child {
+  margin-top: 5px;
+  background: #ff4081;
+  border: none;
+  color: white;
+}
+
+.card button:last-child:hover {
+  transform: scale(1.05);
+}
+.nav-wishlist {
+  margin-left: 15px;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.2rem;
+}
+.nav-wishlist .cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: crimson;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+.wishlist-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 350px;
+  max-width: 90%;
+  height: 100vh;
+  background: rgba(255,255,255,0.95);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.3);
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.wishlist-drawer.open {
+  right: 0;
 }
 
 /* ================= PRODUCT GRID ================= */
