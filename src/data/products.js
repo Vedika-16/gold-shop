@@ -163,9 +163,170 @@ const products = [
     price: 200,
     category: "earring",
     image: "https://tse1.mm.bing.net/th/id/OIP.eia6bpfNH59ZZKH73UG3bgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 24,
+    name: "Couple set Necklace",
+    price: 400,
+    category: "sets",
+    image: "https://up.yimg.com/ib/th/id/OIP.kgMrJYg1pC8EfNHJOolBnwHaHa?pid=Api&rs=1&c=1&qlt=95&w=121&h=121"
+  },
+  
+  {
+    id: 25,
+    name: "Couple set Rings",
+    price: 200,
+    category: "sets",
+    image: "https://up.yimg.com/ib/th/id/OIP.CVPYdZQLQV8zVbJn20hNPgHaHa?pid=Api&rs=1&c=1&qlt=95&w=121&h=121"
+  },
+  {
+    id: 26,
+    name: "Couple set Rings",
+    price: 250,
+    category: "sets",
+    image: "https://sp.yimg.com/ib/th/id/OIP.bC929JmgRC-0OjXY2CEPPAAAAA?pid=Api&w=148&h=148&c=7&dpr=2&rs=1"
+  },
+  {
+    id: 27,
+    name: "Couple set Necklace",
+    price: 600,
+    category: "sets",
+    image: "https://up.yimg.com/ib/th/id/OIP.CCW3EgRSnBBFn6U2jTOYfQHaFj?pid=Api&rs=1&c=1&qlt=95&w=147&h=110"
+  },
+  {
+    id: 28,
+    name: "Couple set Bracelets",
+    price: 800,
+    category: "sets",
+    image: "https://sp.yimg.com/ib/th/id/OIP.aKDcnqRga4_H2sDIS31CrAHaHa?pid=Api&w=148&h=148&c=7&dpr=2&rs=1"
+  },
+  {
+    id: 29,
+    name: "Weeding Collection",
+    price: 2800,
+    category: "wedding",
+    image: "https://tse4.mm.bing.net/th/id/OIP.405SKyzadO_KViy_hvcmQwHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 30,
+    name: "Weeding Collection",
+    price: 2800,
+    category: "wedding",
+    image: "https://tse2.mm.bing.net/th/id/OIP.OP5ctMzJ5lQ2_VFcymj_DgHaJR?pid=Api&P=0&h=180"
+  },
+  {
+    id: 31,
+    name: "Weeding Collection",
+    price: 2800,
+    category: "wedding",
+    image: "https://tse4.mm.bing.net/th/id/OIP.z2y7_Dmx9fJMXzD_w0IVQQHaJQ?pid=Api&P=0&h=180"
+  },
+  {
+    id: 32,
+    name: "Weeding Collection",
+    price: 2800,
+    category: "wedding",
+    image: "https://tse1.mm.bing.net/th/id/OIP.IA5Httx6PfD6oxPm5dwRAgHaFt?pid=Api&P=0&h=180"
+  },
+  {
+    id: 33,
+    name: "Weeding Collection",
+    price: 2800,
+    category: "wedding",
+    image: "https://tse1.mm.bing.net/th/id/OIP.77tVhygJ6j8xdXJOvdnpOgHaFj?pid=Api&P=0&h=180"
+  },
+  {
+    id: 34,
+    name: "Weeding Collection",
+    price: 2800,
+    category: "wedding",
+    image: "https://tse3.mm.bing.net/th/id/OIP.cJD1l_b9BgNCqUGuxzip6QHaIr?pid=Api&P=0&h=180"
+  },
+  {
+    id: 35,
+    name: "Engagement Collection",
+    price: 2800,
+    category: "engagement",
+    image: "https://tse4.mm.bing.net/th/id/OIP.NxM-XI6h04t3ir1m2JPmJQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 36,
+    name: "Engagement Collection",
+    price: 2800,
+    category: "engagement",
+    image: "https://tse4.mm.bing.net/th/id/OIP.WpwSEM-LOHsLQM7a9VcO1AHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 37,
+    name: "Engagement Collection",
+    price: 2800,
+    category: "engagement",
+    image: "https://tse3.mm.bing.net/th/id/OIP.8EX_dUeoN23fEc9zKNzkPAHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 38,
+    name: "Engagement Collection",
+    price: 2800,
+    category: "engagement",
+    image: "https://tse4.mm.bing.net/th/id/OIP._XdWyGQsJzbeEWwEAGrf5wHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 39,
+    name: "Engagement Collection",
+    price: 2800,
+    category: "engagement",
+    image: "https://tse1.mm.bing.net/th/id/OIP.Jz71RMPuamd6qU2xWp1RuAHaHa?pid=Api&P=0&h=180"
+  },
+  
+  {
+    id: 40,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse3.mm.bing.net/th/id/OIP.i2TvZCrrBUGjGU23U6jDZQHaDt?pid=Api&P=0&h=180"
+  },
+  {
+    id: 41,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse2.mm.bing.net/th/id/OIP.QoX38dUURbOSlMeD1ELLSgHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 42,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse4.mm.bing.net/th/id/OIP.yLCD8dplUJ3jNBlShcgcogHaEK?pid=Api&P=0&h=180"
+  },
+  {
+    id: 43,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse3.mm.bing.net/th/id/OIP.PaQbai2phjfUh4mLOWMsuAHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 44,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse2.mm.bing.net/th/id/OIP.lPmqJsY8LyaO4wy9xA9YBwHaFj?pid=Api&P=0&h=180"
+  },
+  {
+    id: 45,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse4.mm.bing.net/th/id/OIP.z8MHIkfx619dm4KZUhuuTQHaHa?pid=Api&P=0&h=180"
+  },
+  {
+    id: 46,
+    name: "Casual Collection",
+    price: 2800,
+    category: "casual",
+    image: "https://tse1.mm.bing.net/th/id/OIP.w09xlBHQUdALIv7pxTbzNgHaHa?pid=Api&P=0&h=180"
   }
-
-
 ];
 
 export default products;

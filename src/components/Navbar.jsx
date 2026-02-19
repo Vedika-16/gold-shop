@@ -9,6 +9,9 @@ function Navbar({
   setCartOpen,
   setWishlistOpen,
   scrollToContact,
+  user,
+  setLoginOpen,
+  setProfileOpen,
 }) {
   const [collectionsOpen, setCollectionsOpen] = useState(false);
 
@@ -19,24 +22,29 @@ function Navbar({
 
   return (
     <nav className="navbar">
-      <h2>💎 Luxury Gold</h2>
+      <h2 className="logo">💎 Luxury Gold</h2>
 
+      {/* LEFT LINKS */}
       <div className="nav-links">
         <button onClick={() => setCategory("all")}>All</button>
         <button onClick={() => setCategory("ring")}>Rings</button>
         <button onClick={() => setCategory("necklace")}>Necklaces</button>
         <button onClick={() => setCategory("earring")}>Earrings</button>
+        <button onClick={() => setCategory("sets")}>Couple Sets</button>
 
         {/* Collections Dropdown */}
         <div className="dropdown">
-          <button onClick={() => setCollectionsOpen(!collectionsOpen)}>
+          <button
+            className="dropdown-btn"
+            onClick={() => setCollectionsOpen(!collectionsOpen)}
+          >
             Collections ▼
           </button>
           {collectionsOpen && (
-            <div className="dropdown-content">
-              <button onClick={() => handleCollectionClick("engagement")}>Engagement</button>
-              <button onClick={() => handleCollectionClick("wedding")}>Wedding</button>
-              <button onClick={() => handleCollectionClick("casual")}>Casual</button>
+            <div className="dropdown-menu">
+              <div onClick={() => handleCollectionClick("engagement")}>Engagement</div>
+              <div onClick={() => handleCollectionClick("wedding")}>Wedding</div>
+              <div onClick={() => handleCollectionClick("casual")}>Casual</div>
             </div>
           )}
         </div>
@@ -44,6 +52,16 @@ function Navbar({
         <button onClick={scrollToContact}>Contact</button>
       </div>
 
+      {/* USER LOGIN / PROFILE */}
+      <div className="navbar-profile">
+        {user ? (
+          <button onClick={() => setProfileOpen(true)}>{user.name}</button>
+        ) : (
+          <button onClick={() => setLoginOpen(true)}>Login</button>
+        )}
+      </div>
+
+      {/* RIGHT ICONS */}
       <div className="nav-right">
         <button className="mode-btn" onClick={toggleDarkMode}>
           {darkMode ? "☀" : "🌙"}
